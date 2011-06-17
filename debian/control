@@ -1,0 +1,16 @@
+Source: geebus
+Section: misc
+Priority: extra
+Uploaders: Wade Simmons <wade@simplegeo.com>
+Maintainer: Wade Simmons <wade@simplegeo.com>
+Build-Depends: cdbs,
+ nodejs (>= 0.4.7),
+Standards-Version: 3.9.1
+
+Package: geebus
+Depends: nodejs (>= 0.4.7),
+ daemon,
+ ${misc:Depends}
+Architecture: all
+Description: campfire bot
+ https://github.com/wadey/geebus

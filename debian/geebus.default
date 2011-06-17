@@ -1,0 +1,16 @@
+# -*- mode: shell-script -*-
+# Defaults for geebus initscript
+# sourced by /etc/init.d/geebus
+# installed at /etc/default/geebus by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS=""
+
+GEEBUS_CONF="/etc/geebus/geebus.json"
+
+# Change this to `yes' to run this daemon
+RUN=no
